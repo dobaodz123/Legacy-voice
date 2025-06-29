@@ -65,7 +65,7 @@ https://github.com/binhlo/RSA/tree/main
 <h4 align="left">
    RSA - KHÓA 16
 </h4>
-<br>https://github.com/kanchou2420/RSA_DigitalSignature
+https://github.com/kanchou2420/RSA_DigitalSignature
 <br>https://github.com/tuananh220204/RSA-Digital-Signature
 <br>https://github.com/THUANH1609/RSA_Digital_Signature
 <br>https://github.com/Tuananhsrr004/RSA
@@ -181,5 +181,32 @@ https://github.com/Banhmipatee11/AES/tree/main
 <br>https://github.com/user-attachments/assets/793e6c8e-2494-4ac3-ba02-15de590acd6c
 <br>https://github.com/user-attachments/assets/793e6c8e-2494-4ac3-ba02-15de590acd6c
 
+<h4 align="left">
+   DES - KHÓA 17
+</h4>
+https://github.com/ngocbach11314/DES_app.git
+<br>https://github.com/Danh091005/NguyenDanh.git
+<br>https://github.com/nguyenduyen01022004/nguyenduyen
+<br>https://github.com/DangDat2201/DangThanhDat05.git
+<br>https://github.com/NguyenDacDat05/NguyenDacDat
+<br>https://github.com/trongdong1605/nguyentrongdong
+<br>https://github.com/Duc17017/c-c-b-i-t-p
+<br>https://github.com/Gienwoennuthan/BT-Thu-t-to-n-DES.git
+<br>https://github.com/minhhieucntt1707/DES-CYPHER.git
+<br>https://github.com/my-hoen/BT-thu-t-to-n-DES.git
+<br>https://github.com/HDuonggg/GiaiMaMaHoa.git
+<br>https://github.com/duyhong2005/Encrypted-v-Decrypted
+<br>https://github.com/nhuongg/Des-Decrypt.git
+<br>https://github.com/khanh2005vf/encrypt-decrypt.git
+<br>https://github.com/congkhanh0503/DEs.git
+<br>https://github.com/nguyenly29/Nguyen_Ly.git
+<br>https://github.com/3132205/mahoades
+<br>https://github.com/GaminTheBasket/Tminh1771020470.git
+<br>https://github.com/namtx53/maDES.git
+<br>https://github.com/Dangyennhi/trangweb_des.gitt.git
+<br>https://phuccdayynee.github.io/BaoMatThuatToanDES./
+<br>https://github.com/Thuong1310/BaiTap
+<br>https://github.com/Tuan2401/Tu-n-CNTT-17-07.git
+<br>https://github.com/user-attachments/assets/9036820c-fe2e-4761-b8e6-fa7c211d9bcf
 
 

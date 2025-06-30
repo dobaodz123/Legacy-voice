@@ -20,6 +20,32 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
+# Sản phẩm được phát triển bởi các nhóm sinh viên
+
+
+- #### CNTT 17-02
+    | Tên đề tài             | Người thực hiện     | Source code     | Nổi bật     |
+    | ---------------------- | --------------------| --------------- | ----------- |
+    | Ứng dụng Triple DES và AES để bảo vệ thông tin nhạy cảm trong cơ sở dữ liệu | Vương Trọng Hải Quân, Lê Sơn Quang, Nguyễn Minh Hùng| [:octocat:github](https://github.com/HaiQuan17-02/NHOM1_BTL_ATBM)|
+    | Ứng dụng bảo mật tin nhắn văn bản với mã hoá TripleDES và xác thực RSA| Nguyễn Thành Trung, Lương Quốc Bảo, Đoàn Đình Hậu| [:octocat:github](https://github.com/Trung1822/BTL_ATBMTT)|
+    | Game “Giải mã kho báu”| Lê Anh Sơn, Nguyễn Trung Kiên, Đào Đức Phong| [:octocat:github](https://github.com/LEANHSON-1771020591/ATBM_BTL)|
+    | Game “Hệ thống mã hóa ngân hàng”| Nguyễn Tiến Lực, Nguyễn Trung Sơn, Vũ Duy Mạnh| [:octocat:github](https://github.com/LEANHSON-1771020591/ATBM_BTL)||
+    | Ứng dụng SHA và Triple DES để bảo vệ mật khẩu người dùng trong cơ sở dữ liệu| Nguyễn Thị Thanh Nhã, Dương Ngọc Đông, Nguyễn Quang Trung| [:octocat:github](https://github.com/Iamdongdev/Ung-dung-SHA-va-Triple-DES-de-bao-ve-mat-khau-nguoi-dung-trong-co-so-du-lieu)||
+    | Ứng dụng bảo mật tin nhắn văn bản với mã hoá AES và xác thực RSA| Nguyễn Thị Phương, Nguyễn Quốc Việt, Kiều Văn Phúc| [:octocat:github](https://github.com/Tengu146/ATBM)|
+    | Gửi ảnh có gắn watermark| Lê Ngọc Minh, Nguyễn Văn Tấn, Nguyễn Vọng  |[:octocat:github](https://github.com/VongSuccess/NMATBMTT_NHOM7.git)|
+    | Gửi tài liệu email có giới hạn thời gian| Đỗ Khánh Hùng, Nguyễn Quốc Huy, Bùi Trọng Tài| [:octocat:github](https://github.com/ngyetdan/NhapMonAnToanBaoMatThongTin.git)|
+    |  Gửi bài tập chia thành nhiều phần| Lâm Tiến Dũng, Nguyễn Trường Giang, Trần Trọng Đức |[:octocat:github](https://github.com/lamtiendung/Gui-bai-tap-chia-thanh-nhieu-phan.git)|
+    | Ứng dụng bảo mật tin nhắn văn bản với mã hoá DES và xác thực RSA| Hạ Thị Hằng, Trần Hải Long,	Lê Văn Sinh |[:octocat:github](https://github.com/TrHLong/Secure-Message)|
+    | Gửi tập tin nhạc có bản quyền| Nguyễn Phương Nam, Nguyễn Phương Nam(499), Tạ Văn Phong|[:octocat:github](https://github.com/TaVanPhong/ATBMTT.git)|
+    | Gửi hợp đồng với chữ ký số riêng| Nguyễn Thị Hoa, Trần Văn Thịnh|[:octocat:github](https://github.com/Nguyen-thi-hoa/BTL-MONANTOANBAOMATTHONGTIN)|
+    | Giả lập upload/download video lên cloud với xử lý lỗi mạng| Lê Minh Hiếu, Mai Ngọc Vui, Hoàng Công Hiệp|[:octocat:github](https://github.com/Dai-Moroboshi/BTL_an-toan-bao-mat-thong-tin)|
+    | Giả lập upload/download tài liệu lên nhiều cloud| Dương Đức Quyết, Phạm Gia Khiêm, Hoàng Đức Trung|[:octocat:github](https://github.com/tyuqnou/nhapmonantoanbaomat.git)|
+    | Gửi báo cáo công ty qua Server trung gian| Đỗ Tiến Đại, Lê Thị Lý, Đào Đình Chí|[:octocat:github](https://github.com/DaiTienDo/ATBMTT_Nhom15.git)|
+
+
+
+
+
 
 <div align="left">
 <h4 align="left">

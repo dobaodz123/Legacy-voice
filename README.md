@@ -5,7 +5,7 @@
 </h2>
 <br>
 <h2 align="center">
-   CRYPTOGRAPHY AND CYBER SECURITY
+    CRYPTOGRAPHY AND CYBER SECURITY
 </h2>
 <br>
 <div align="center">
@@ -21,9 +21,19 @@
 
 </div>
 
-# Sản phẩm được phát triển bởi các nhóm sinh viên
+# Tổng hợp Repository môn học
+Dưới đây là danh sách tổng hợp các sản phẩm và bài tập được phát triển bởi sinh viên các khóa. Click vào từng mục để xem chi tiết.
 
-- #### CNTT 17-01
+<br>
+
+<details>
+<summary>
+    <h3>
+        📖 Sản phẩm Bài tập lớn
+    </h3>
+</summary>
+
+- #### **Khóa 17 (Lớp CNTT 17-01)**
     | Tên đề tài | Người thực hiện | Source code (cá nhân) |
     | ---------------------- | --------------------| --------------- |
     | **Đề tài 6** | Trần Văn Lâm, Hoàng Văn Thi, Bùi Đức Thắng | Trần Văn Lâm: [:octocat: Github](https://github.com/TVLlam/BTL_ATBM.git)<br>Hoàng Văn Thi: [:octocat: Github](https://github.com/HOANGTHI2509/Nhom1-Hoang_Van_Thi.git) |
@@ -41,9 +51,9 @@
     | **Đề tài 3** | Lê Trung Hiếu, Lâm Duy Khánh, Nguyễn Nam Anh | Lê Trung Hiếu: [:octocat: Github](https://github.com/lehieu2999/hieu)<br>Lâm Duy Khánh: [:octocat: Github](https://github.com/LamKheng/BaiTapLonATBMTT) |
     | **Đề tài 8** | Nguyễn Phạm Hồng Lâm, Nguyễn Đình Huy, Vũ Việt Long | Nguyễn Phạm Hồng Lâm: [:octocat: Github](https://github.com/bigdreamn/BTL-NMATBMTT2.git)<br>Nguyễn Đình Huy: [:octocat: Github](https://github.com/HuyNG25/1771020357.git)<br>Vũ Việt Long: [:octocat: Github](https://github.com/VuVietLong1207/BTL_NMATBMTT.git) |
     | **Đề tài 22** | Nguyễn Tiến Dũng, Nguyễn Minh Chiến, Bùi Đức Dương | Nguyễn Tiến Dũng: [:octocat: Github](https://github.com/nguyen42005/nguyen-dung1.git)<br>Nguyễn Minh Chiến: [:octocat: Github](https://github.com/mc20t6/BTL_ATBMTT.git)<br>Bùi Đức Dương: [:octocat: Github](https://github.com/buiducduong24/BTL_ATBMTT.git) |
-  
-- #### CNTT 17-02
-    | Tên đề tài             | Người thực hiện     | Source code     |
+
+- #### **Khóa 17 (Lớp CNTT 17-02)**
+    | Tên đề tài | Người thực hiện | Source code |
     | ---------------------- | --------------------| --------------- |
     | Ứng dụng Triple DES và AES để bảo vệ thông tin nhạy cảm trong cơ sở dữ liệu | Vương Trọng Hải Quân, Lê Sơn Quang, Nguyễn Minh Hùng| [:octocat:github](https://github.com/HaiQuan17-02/NHOM1_BTL_ATBM)|
     | Ứng dụng bảo mật tin nhắn văn bản với mã hoá TripleDES và xác thực RSA| Nguyễn Thành Trung, Lương Quốc Bảo, Đoàn Đình Hậu| [:octocat:github](https://github.com/Trung1822/BTL_ATBMTT)|
@@ -51,9 +61,9 @@
     | Game “Hệ thống mã hóa ngân hàng”| Nguyễn Tiến Lực, Nguyễn Trung Sơn, Vũ Duy Mạnh| [:octocat:github](https://github.com/LEANHSON-1771020591/ATBM_BTL)||
     | Ứng dụng SHA và Triple DES để bảo vệ mật khẩu người dùng trong cơ sở dữ liệu| Nguyễn Thị Thanh Nhã, Dương Ngọc Đông, Nguyễn Quang Trung| [:octocat:github](https://github.com/Iamdongdev/Ung-dung-SHA-va-Triple-DES-de-bao-ve-mat-khau-nguoi-dung-trong-co-so-du-lieu)||
     | Ứng dụng bảo mật tin nhắn văn bản với mã hoá AES và xác thực RSA| Nguyễn Thị Phương, Nguyễn Quốc Việt, Kiều Văn Phúc| [:octocat:github](https://github.com/Tengu146/ATBM)|
-    | Gửi ảnh có gắn watermark| Lê Ngọc Minh, Nguyễn Văn Tấn, Nguyễn Vọng  |[:octocat:github](https://github.com/VongSuccess/NMATBMTT_NHOM7.git)|
+    | Gửi ảnh có gắn watermark| Lê Ngọc Minh, Nguyễn Văn Tấn, Nguyễn Vọng |[:octocat:github](https://github.com/VongSuccess/NMATBMTT_NHOM7.git)|
     | Gửi tài liệu email có giới hạn thời gian| Đỗ Khánh Hùng, Nguyễn Quốc Huy, Bùi Trọng Tài| [:octocat:github](https://github.com/ngyetdan/NhapMonAnToanBaoMatThongTin.git)|
-    |  Gửi bài tập chia thành nhiều phần| Lâm Tiến Dũng, Nguyễn Trường Giang, Trần Trọng Đức |[:octocat:github](https://github.com/lamtiendung/Gui-bai-tap-chia-thanh-nhieu-phan.git)|
+    | Gửi bài tập chia thành nhiều phần| Lâm Tiến Dũng, Nguyễn Trường Giang, Trần Trọng Đức |[:octocat:github](https://github.com/lamtiendung/Gui-bai-tap-chia-thanh-nhieu-phan.git)|
     | Ứng dụng bảo mật tin nhắn văn bản với mã hoá DES và xác thực RSA| Hạ Thị Hằng, Trần Hải Long,	Lê Văn Sinh |[:octocat:github](https://github.com/TrHLong/Secure-Message)|
     | Gửi tập tin nhạc có bản quyền| Nguyễn Phương Nam, Nguyễn Phương Nam(499), Tạ Văn Phong|[:octocat:github](https://github.com/TaVanPhong/ATBMTT.git)|
     | Gửi hợp đồng với chữ ký số riêng| Nguyễn Thị Hoa, Trần Văn Thịnh|[:octocat:github](https://github.com/Nguyen-thi-hoa/BTL-MONANTOANBAOMATTHONGTIN)|
@@ -61,61 +71,16 @@
     | Giả lập upload/download tài liệu lên nhiều cloud| Dương Đức Quyết, Phạm Gia Khiêm, Hoàng Đức Trung|[:octocat:github](https://github.com/tyuqnou/nhapmonantoanbaomat.git)|
     | Gửi báo cáo công ty qua Server trung gian| Đỗ Tiến Đại, Lê Thị Lý, Đào Đình Chí|[:octocat:github](https://github.com/DaiTienDo/ATBMTT_Nhom15.git)|
 
+</details>
 
+<details>
+<summary>
+    <h3>
+        🔐 Bài tập Chữ ký số / RSA
+    </h3>
+</summary>
 
-
-
-
-# 🔐 DIGITAL SIGNATURE - KHÓA 17
-
-> Tổng hợp các repository bài tập về chữ ký số RSA của sinh viên khóa 17.
-
-| STT | Repository |
-|-----|------------|
-| 1 | [binhlo/RSA](https://github.com/binhlo/RSA/tree/main) |
-| 2 | [NTBinh205/RSA](https://github.com/NTBinh205/RSA) |
-| 3 | [mc20t6/TruyenFileKySo](https://github.com/mc20t6/TruyenFileKySo.git) |
-| 4 | [vucongdev/RSA-File-Signer](https://github.com/vucongdev/RSA-File-Signer) |
-| 5 | [buiducduong24/RSA](https://github.com/buiducduong24/RSA) |
-| 6 | [Datnguyenquocc/RSA](https://github.com/Datnguyenquocc/RSA) |
-| 7 | [DiemManhNguyen/BT_Rivest-Shamir-Adleman](https://github.com/DiemManhNguyen/BT_Rivest-Shamir-Adleman.git) |
-| 8 | [haiiigiang/RSA](https://github.com/haiiigiang/RSA) |
-| 9 | [PhiTruongGiang/truyen_file_chu_ky_so](https://github.com/PhiTruongGiang/truyen_file_chu_ky_so.git) |
-| 10 | [hiepnguyen05/TruyenFileRSAChuKySo](https://github.com/hiepnguyen05/TruyenFileRSAChuKySo) |
-| 11 | [tuanhiep23/RSA](https://github.com/tuanhiep23/RSA.git) |
-| 12 | [hoaphun2/chuyenfilebangkyso](https://github.com/hoaphun2/chuyenfilebangkyso.git) |
-| 13 | [HoangNguyen111h/ChuKySo](https://github.com/HoangNguyen111h/ChuKySo) |
-| 14 | [hhoangzone/RSA](https://github.com/hhoangzone/RSA) |
-| 15 | [tranhauhuan452005/TruyenFileChuKySo](https://github.com/tranhauhuan452005/TruyenFileChuKySo.git) |
-| 16 | [huyluong26/Chu_ky_so](https://github.com/huyluong26/Chu_ky_so) |
-| 17 | [nhucccc/BTRSA](https://github.com/nhucccc/BTRSA.git) |
-| 18 | [HuyNG25/RSA-ChuKySo](https://github.com/HuyNG25/RSA-ChuKySo.git) |
-| 19 | [LamKheng/RSA_Chukyso](https://github.com/LamKheng/RSA_Chukyso) |
-| 20 | [ngocminhkien/ChuKySo](https://github.com/ngocminhkien/ChuKySo.git) |
-| 21 | [bigdreamn/BTATBM](https://github.com/bigdreamn/BTATBM.git) |
-| 22 | [TVLlam/TF-CKS](https://github.com/TVLlam/TF-CKS.git) |
-| 23 | [Lovanlong1210/TRUYEN_DL_CHO_CHU_KY_SO](https://github.com/Lovanlong1210/TRUYEN_DL_CHO_CHU_KY_SO.git) |
-| 24 | [VuVietLong1207/RSA_KySo](https://github.com/VuVietLong1207/RSA_KySo.git) |
-| 25 | [manhtb1107/ChuKySo](https://github.com/manhtb1107/ChuKySo) |
-| 26 | [tomzumbi/RSA](https://github.com/tomzumbi/RSA) |
-| 27 | [bngoc04/Truyen_file_du_lieu_co_ky_so](https://github.com/bngoc04/Truyen_file_du_lieu_co_ky_so.git) |
-| 28 | [YeNhi22/RSA](https://github.com/YeNhi22/RSA.git) |
-| 29 | [minhson11/ThuatToanRSA](https://github.com/minhson11/ThuatToanRSA.git) |
-| 30 | [thanh331/RSA](https://github.com/thanh331/RSA.git) |
-| 31 | [HOANGTHI2509/RSA_ChuKySo](https://github.com/HOANGTHI2509/RSA_ChuKySo.git) |
-| 32 | [thuyetdeptrai/RSA](https://github.com/thuyetdeptrai/RSA) |
-| 33 | [Trung010223/ChuKySo](https://github.com/Trung010223/ChuKySo/blob/main/README.md) |
-| 34 | [tuan9242/ChuKiSo](https://github.com/tuan9242/ChuKiSo) |
-| 35 | [Yennguyen124/TruyenFiledulieucokyso](https://github.com/Yennguyen124/TruyenFiledulieucokyso.git) |
-
-## 📎 Danh sách đính kèm
-
-| STT | Link |
-|-----|------|
-| 1 | [Ảnh 1](https://github.com/user-attachments/assets/f9d56f63-21b8-41c5-b042-83e8ad05cfde) |
-| 2 | [Ảnh 2](https://github.com/user-attachments/assets/f9d56f63-21b8-41c5-b042-83e8ad05cfde) |
-# 🔐 RSA - KHÓA 16
-
+#### **Khóa 16**
 > Danh sách các repository project chữ ký số RSA của sinh viên khóa 16.
 
 | STT | Repository |
@@ -159,14 +124,70 @@
 | 37 | [xuong254/K-S-](https://github.com/xuong254/K-S-.git) |
 | 38 | [leyen2004/rsa](https://github.com/leyen2004/rsa.git) |
 
-## 📎 Danh sách đính kèm
+> 📎 **Ảnh đính kèm**
+>
+> | STT | Link |
+> |-----|------|
+> | 1 | [Ảnh 1](https://github.com/user-attachments/assets/257f6e70-f3df-4f76-bef5-89743c310434) |
 
-| STT | Link |
-|-----|------|
-| 1 | [Ảnh 1](https://github.com/user-attachments/assets/257f6e70-f3df-4f76-bef5-89743c310434) |
+#### **Khóa 17**
+> Tổng hợp các repository bài tập về chữ ký số RSA của sinh viên khóa 17.
 
-# 🔐 HASH FUNCTION - KHÓA 17
+| STT | Repository |
+|-----|------------|
+| 1 | [binhlo/RSA](https://github.com/binhlo/RSA/tree/main) |
+| 2 | [NTBinh205/RSA](https://github.com/NTBinh205/RSA) |
+| 3 | [mc20t6/TruyenFileKySo](https://github.com/mc20t6/TruyenFileKySo.git) |
+| 4 | [vucongdev/RSA-File-Signer](https://github.com/vucongdev/RSA-File-Signer) |
+| 5 | [buiducduong24/RSA](https://github.com/buiducduong24/RSA) |
+| 6 | [Datnguyenquocc/RSA](https://github.com/Datnguyenquocc/RSA) |
+| 7 | [DiemManhNguyen/BT_Rivest-Shamir-Adleman](https://github.com/DiemManhNguyen/BT_Rivest-Shamir-Adleman.git) |
+| 8 | [haiiigiang/RSA](https://github.com/haiiigiang/RSA) |
+| 9 | [PhiTruongGiang/truyen_file_chu_ky_so](https://github.com/PhiTruongGiang/truyen_file_chu_ky_so.git) |
+| 10 | [hiepnguyen05/TruyenFileRSAChuKySo](https://github.com/hiepnguyen05/TruyenFileRSAChuKySo) |
+| 11 | [tuanhiep23/RSA](https://github.com/tuanhiep23/RSA.git) |
+| 12 | [hoaphun2/chuyenfilebangkyso](https://github.com/hoaphun2/chuyenfilebangkyso.git) |
+| 13 | [HoangNguyen111h/ChuKySo](https://github.com/HoangNguyen111h/ChuKySo) |
+| 14 | [hhoangzone/RSA](https://github.com/hhoangzone/RSA) |
+| 15 | [tranhauhuan452005/TruyenFileChuKySo](https://github.com/tranhauhuan452005/TruyenFileChuKySo.git) |
+| 16 | [huyluong26/Chu_ky_so](https://github.com/huyluong26/Chu_ky_so) |
+| 17 | [nhucccc/BTRSA](https://github.com/nhucccc/BTRSA.git) |
+| 18 | [HuyNG25/RSA-ChuKySo](https://github.com/HuyNG25/RSA-ChuKySo.git) |
+| 19 | [LamKheng/RSA_Chukyso](https://github.com/LamKheng/RSA_Chukyso) |
+| 20 | [ngocminhkien/ChuKySo](https://github.com/ngocminhkien/ChuKySo.git) |
+| 21 | [bigdreamn/BTATBM](https://github.com/bigdreamn/BTATBM.git) |
+| 22 | [TVLlam/TF-CKS](https://github.com/TVLlam/TF-CKS.git) |
+| 23 | [Lovanlong1210/TRUYEN_DL_CHO_CHU_KY_SO](https://github.com/Lovanlong1210/TRUYEN_DL_CHO_CHU_KY_SO.git) |
+| 24 | [VuVietLong1207/RSA_KySo](https://github.com/VuVietLong1207/RSA_KySo.git) |
+| 25 | [manhtb1107/ChuKySo](https://github.com/manhtb1107/ChuKySo) |
+| 26 | [tomzumbi/RSA](https://github.com/tomzumbi/RSA) |
+| 27 | [bngoc04/Truyen_file_du_lieu_co_ky_so](https://github.com/bngoc04/Truyen_file_du_lieu_co_ky_so.git) |
+| 28 | [YeNhi22/RSA](https://github.com/YeNhi22/RSA.git) |
+| 29 | [minhson11/ThuatToanRSA](https://github.com/minhson11/ThuatToanRSA.git) |
+| 30 | [thanh331/RSA](https://github.com/thanh331/RSA.git) |
+| 31 | [HOANGTHI2509/RSA_ChuKySo](https://github.com/HOANGTHI2509/RSA_ChuKySo.git) |
+| 32 | [thuyetdeptrai/RSA](https://github.com/thuyetdeptrai/RSA) |
+| 33 | [Trung010223/ChuKySo](https://github.com/Trung010223/ChuKySo/blob/main/README.md) |
+| 34 | [tuan9242/ChuKiSo](https://github.com/tuan9242/ChuKiSo) |
+| 35 | [Yennguyen124/TruyenFiledulieucokyso](https://github.com/Yennguyen124/TruyenFiledulieucokyso.git) |
 
+> 📎 **Ảnh đính kèm**
+>
+> | STT | Link |
+> |-----|------|
+> | 1 | [Ảnh 1](https://github.com/user-attachments/assets/f9d56f63-21b8-41c5-b042-83e8ad05cfde) |
+> | 2 | [Ảnh 2](https://github.com/user-attachments/assets/f9d56f63-21b8-41c5-b042-83e8ad05cfde) |
+
+</details>
+
+<details>
+<summary>
+    <h3>
+        🔐 Bài tập Hàm băm / Hash Function
+    </h3>
+</summary>
+
+#### **Khóa 17**
 > Danh sách các repository ứng dụng hàm băm (SHA-256) để truyền file toàn vẹn của sinh viên khóa 17.
 
 | STT | Repository |
@@ -206,8 +227,16 @@
 | 33 | [hoaphun2/LeDuyHoa-chuyenfile](https://github.com/hoaphun2/LeDuyHoa-chuyenfile.git) |
 | 34 | [NhatMinh1905/sha256](https://github.com/NhatMinh1905/sha256) |
 
-# 🔐 AES - KHÓA 17
+</details>
 
+<details>
+<summary>
+    <h3>
+        🔐 Bài tập Mã hóa đối xứng (AES / DES)
+    </h3>
+</summary>
+
+#### **AES - Khóa 17**
 > Danh sách các repository ứng dụng thuật toán mã hóa AES của sinh viên khóa 17.
 
 | STT | Repository |
@@ -280,15 +309,14 @@
 | 66 | [Tuan2401/Tuan17-07](https://github.com/Tuan2401/Tuan17-07.git) |
 | 67 | [phamquangvinh2506/25-06](https://github.com/phamquangvinh2506/25-06) |
 
-## 📎 Ảnh đính kèm
+> 📎 **Ảnh đính kèm**
+>
+> | STT | Link |
+> |-----|------|
+> | 1 | [Ảnh 1](https://github.com/user-attachments/assets/793e6c8e-2494-4ac3-ba02-15de590acd6c) |
+> | 2 | [Ảnh 2](https://github.com/user-attachments/assets/8122d387-4a6a-47c6-839d-ef4852da631d) |
 
-| STT | Link |
-|-----|------|
-| 1 | [Ảnh 1](https://github.com/user-attachments/assets/793e6c8e-2494-4ac3-ba02-15de590acd6c) |
-| 2 | [Ảnh 2](https://github.com/user-attachments/assets/8122d387-4a6a-47c6-839d-ef4852da631d) |
-
-# 🔐 DES - KHÓA 17
-
+#### **DES - Khóa 17**
 > Danh sách các repository ứng dụng thuật toán mã hóa DES của sinh viên khóa 17.
 
 | STT | Repository |
@@ -317,11 +345,10 @@
 | 22 | [Thuong1310/BaiTap](https://github.com/Thuong1310/BaiTap) |
 | 23 | [Tuan2401/Tu-n-CNTT-17-07](https://github.com/Tuan2401/Tu-n-CNTT-17-07.git) |
 
-## 📎 Ảnh đính kèm
+> 📎 **Ảnh đính kèm**
+>
+> | STT | Link |
+> |-----|------|
+> | 1 | [Ảnh 1](https://github.com/user-attachments/assets/9036820c-fe2e-4761-b8e6-fa7c211d9bcf) |
 
-| STT | Link |
-|-----|------|
-| 1 | [Ảnh 1](https://github.com/user-attachments/assets/9036820c-fe2e-4761-b8e6-fa7c211d9bcf) |
-
-
-
+</details>

@@ -23,7 +23,53 @@
 
 # Sản phẩm được phát triển bởi các nhóm sinh viên
 
-
+- #### CNTT 17-01
+    | STT | Mã sinh viên | Họ và tên | Nhóm | Đề tài | Github |
+    | :-- | :--- | :--- | :--: | :----: | :--- |
+    | 1 | 1771020412 | Trần Văn Lâm | 1 | 6 | [Link](https://github.com/TVLlam/BTL_ATBM.git) |
+    | 2 | 1771020643 | Hoàng Văn Thi | | | [Link](https://github.com/HOANGTHI2509/Nhom1-Hoang_Van_Thi.git) |
+    | 3 | 1771020619 | Bùi Đức Thắng | | | |
+    | 4 | 1771020254 | Nguyễn Ngọc Hiệp | 2 | 18 | [Link](https://github.com/hiepnguyen05/BaiTapLonATBMTT) |
+    | 5 | 1771020304 | Nguyễn Huy Hoàng | | | [Link](https://github.com/HoangNguyen111h/BTL_ATBMTT) |
+    | 6 | 1771020349 | Lương Quang Huy | | | [Link](https://github.com/huyluong26/BTL_ATTT) |
+    | 7 | 1771020689 | Ngô Quang Trung | 3 | 19 | [Link](https://github.com/Trung010223/BTL_ATBMTT) |
+    | 8 | 1771020662 | Nguyễn Văn Thuyết | | | [Link](https://github.com/thuyetdeptrai/BTLATBMTT) |
+    | 9 | 1771020451 | Đoàn Duy Mạnh | | | [Link](https://github.com/manhtb1107/DuyManh_ATBMTT) |
+    | 10 | 1771020434 | Lò Văn Long | 4 | 23 | [Link](https://github.com/Lovanlong1210/HE_THONG_BAO_VE_NGAN_HANG.git) |
+    | 11 | 1771020152 | Nguyễn Mạnh Điềm | | | [Link](https://github.com/DiemManhNguyen/BTL_ATBMTT) |
+    | 12 | 1771020719 | Vũ Anh Tuấn | | | [Link](https://github.com/tuan9242/BTL_ATBMTT) |
+    | 13 | 1771020084 | Lò Thanh Bình | 5 | 13 | [Link](https://github.com/binhlo/BAITAPLONATBMTT.git) |
+    | 14 | 1771020777 | Nguyễn Thị Yến | | | [Link](https://github.com/Yennguyen124/BTL_ATBMTT.git) |
+    | 15 | 1771020148 | Nguyễn Quốc Đạt | 6 | 5 | [Link](https://github.com/Datnguyenquocc/Gui-benh-an-voi-xac-thuc-kep) |
+    | 16 | 1771020215 | Trần Đức Duy | | | [Link](https://github.com/tranduy157/tranduyBTL) |
+    | 17 | 1771020478 | Trần Nhật Minh | | | [Link](https://github.com/NhatMinh1905/BTL_ATBMTT) |
+    | 18 | 1771020599 | Nguyễn Minh Sơn | 7 | 17 | [Link](https://github.com/minhson11/NHOM_7-NGUYEN_MINH_SON.git) |
+    | 19 | 1771020523 | Nguyễn Vũ Yến Nhi | | | [Link](https://github.com/YeNhi22/NHOM_7-ATBMTT.git) |
+    | 20 | 1771020630 | Trần Đức Thanh | 8 | 21 | [Link](https://github.com/thanh331/nhosm8-ATBMTT.git) |
+    | 21 | 1771020401 | Ngọc Minh Kiên | | | [Link](https://github.com/ngocminhkien/BTL-ATBMTT-nh-m-8-.git) |
+    | 22 | 1771020283 | Lê Duy Hòa | | | [Link](https://github.com/hoaphun2/BTL_ATBMTT_nhom_8.git) |
+    | 23 | 1771020256 | Vũ Tuấn Hiệp | 9 | 24 | [Link](https://github.com/tuanhiep23/Nhom9-BTL.git) |
+    | 24 | 1771020311 | Trần Hậu Huân | | | [Link](https://github.com/tranhauhuan452005/BTL.ATBMTT.git) |
+    | 25 | 1771020092 | Nguyễn Thanh Bình | | | [Link](https://github.com/NTBinh205/Giai_Ma.git) |
+    | 26 | 1771020458 | Nguyễn Văn Mạnh | 10 | 16 | [Link](https://github.com/tomzumbi/BTL_ATBMTT) |
+    | 27 | 1771020298 | Nguyễn Huy Hoàng | | | [Link](https://github.com/hhoangzone/BTL_ATTT.git) |
+    | 28 | 1771020514 | Nguyễn Thị Bích Ngọc | | | [Link](https://github.com/bngoc04/BTL_ATTT.git) |
+    | 29 | 1771020345 | Ngọ Quang Huy | 11 | 10 | [Link](https://github.com/nhucccc/BTLN.git) |
+    | 30 | 1771020232 | Phí Trường Giang | | | [Link](https://github.com/PhiTruongGiang/BTL_AnToanBaoMatTT.git) |
+    | 31 | 1771020108 | Vũ Chí Công | | | [Link](https://github.com/vucongdev/BTL_ATBMTT) |
+    | 32 | 1771020218 | Hoàng Đình Duy | 12 | 15 | [Link](https://github.com/hoangduy1234/ATBMTT) |
+    | 33 | 1771020233 | Nguyễn Kim Hoàng Giang | | | |
+    | 34 | 1771020224 | Nguyễn Hà Giang | | | [Link](https://github.com/haiiigiang/ATBMTT) |
+    | 35 | 1771020279 | Lê Trung Hiếu | 13 | 3 | [Link](https://github.com/lehieu2999/hieu) |
+    | 36 | 1771020378 | Lâm Duy Khánh | | | [Link](https://github.com/LamKheng/BaiTapLonATBMTT) |
+    | 37 | 1771020031 | Nguyễn Nam Anh | | | |
+    | 38 | 1771020410 | Nguyễn Phạm Hồng Lâm | 14 | 8 | [Link](https://github.com/bigdreamn/BTL-NMATBMTT2.git) |
+    | 39 | 1771020357 | Nguyễn Đình Huy | | | [Link](https://github.com/HuyNG25/1771020357.git) |
+    | 40 | 1771020435 | Vũ Việt Long | | | [Link](https://github.com/VuVietLong1207/BTL_NMATBMTT.git) |
+    | 41 | 1771020182 | Nguyễn Tiến Dũng | 15 | 22 | [Link](https://github.com/nguyen42005/nguyen-dung1.git) |
+    | 42 | 1771020099 | Nguyễn Minh Chiến | | | [Link](https://github.com/mc20t6/BTL_ATBMTT.git) |
+    | 43 | 1771020199 | Bùi Đức Dương | | | [Link](https://github.com/buiducduong24/BTL_ATBMTT.git) |
+  
 - #### CNTT 17-02
     | Tên đề tài             | Người thực hiện     | Source code     | Nổi bật     |
     | ---------------------- | --------------------| --------------- | ----------- |

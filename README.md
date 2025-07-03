@@ -90,12 +90,12 @@
 | 34 | [tuan9242/ChuKiSo](https://github.com/tuan9242/ChuKiSo) |
 | 35 | [Yennguyen124/TruyenFiledulieucokyso](https://github.com/Yennguyen124/TruyenFiledulieucokyso.git) |
 
-## 📎 Ảnh đính kèm
+## 📎 Danh sách đính kèm
 
 | STT | Link |
 |-----|------|
-| 1 | [Tệp đính kèm 1](https://github.com/user-attachments/assets/f9d56f63-21b8-41c5-b042-83e8ad05cfde) |
-| 2 | [Tệp đính kèm 2](https://github.com/user-attachments/assets/f9d56f63-21b8-41c5-b042-83e8ad05cfde) |
+| 1 | [Ảnh 1](https://github.com/user-attachments/assets/f9d56f63-21b8-41c5-b042-83e8ad05cfde) |
+| 2 | [Ảnh 2](https://github.com/user-attachments/assets/f9d56f63-21b8-41c5-b042-83e8ad05cfde) |
 # 🔐 RSA - KHÓA 16
 
 > Danh sách các repository project chữ ký số RSA của sinh viên khóa 16.
@@ -141,11 +141,11 @@
 | 37 | [xuong254/K-S-](https://github.com/xuong254/K-S-.git) |
 | 38 | [leyen2004/rsa](https://github.com/leyen2004/rsa.git) |
 
-## 📎 Tệp đính kèm
+## 📎 Danh sách đính kèm
 
 | STT | Link |
 |-----|------|
-| 1 | [Tệp đính kèm](https://github.com/user-attachments/assets/257f6e70-f3df-4f76-bef5-89743c310434) |
+| 1 | [Ảnh 1](https://github.com/user-attachments/assets/257f6e70-f3df-4f76-bef5-89743c310434) |
 
 # 🔐 HASH FUNCTION - KHÓA 17
 
@@ -188,106 +188,122 @@
 | 33 | [hoaphun2/LeDuyHoa-chuyenfile](https://github.com/hoaphun2/LeDuyHoa-chuyenfile.git) |
 | 34 | [NhatMinh1905/sha256](https://github.com/NhatMinh1905/sha256) |
 
-<h4 align="left">
-   AES - KHÓA 17
-</h4>
-https://github.com/Banhmipatee11/AES/tree/main
-<br>https://github.com/mc20t6/AES_Ma_Hoa.git
-<br>https://github.com/vuchicong1771020108/aes
-<br>https://github.com/nguyen42005/nguyen-tien-dung.git
-<br>https://github.com/tranduy157/TranDuy
-<br>https://github.com/DiemManhNguyen/AES_WEB.git
-<br>https://github.com/haiiigiang/AES
-<br>https://github.com/PhiTruongGiang/bai_tap_aes.git
-<br>https://github.com/hiepnguyen05/ThuatToanAES
-<br>https://github.com/tuanhiep23/thuatoanAES.git
-<br>https://github.com/lehieu2999/AES
-<br>https://github.com/hoaphun2/LeDuyHoa_AES.git
-<br>https://github.com/hhoangzone/AES
-<br>https://github.com/HoangNguyen111h/ThuatToanAES
-<br>https://github.com/tranhauhuan452005/AESThuatToan.git
-<br>https://github.com/huyluong26/AES
-<br>https://github.com/nhucccc/AESSHuy.git
-<br>https://github.com/HuyNG25/AES.git
-<br>https://github.com/LamKheng/BaiTapAES
-<br>https://github.com/ngocminhkien/ATBMTT-AES.git
-<br>https://github.com/TVLlam/THUATTOAN_AES.git
-<br>https://github.com/Lovanlong1210/ThuatToan-AES.git
-<br>https://github.com/VuVietLong1207/AES.git
-<br>https://github.com/manhtb1107/BMTT-AES1-.git
-<br>https://github.com/bngoc04/ThuattoanAES.git
-<br>https://github.com/minhson11/thuatToanAES.git
-<br>https://github.com/thanh331/nmANTT-AES.git
-<br>https://github.com/HOANGTHI2509/ThuatToanAES.git
-<br>https://github.com/thuyetdeptrai/AES
-<br>https://github.com/Trung010223/AES
-<br>https://github.com/tuan9242/aes-web-app
-<br>https://github.com/Yennguyen124/AES.git
-<br>https://github.com/user-attachments/assets/793e6c8e-2494-4ac3-ba02-15de590acd6c
-<br>https://github.com/user-attachments/assets/793e6c8e-2494-4ac3-ba02-15de590acd6c
-<br>https://github.com/leeminsiuuu/AES-File-Encryption-Decryption-?tab=readme-ov-file
-<br>https://github.com/trananhbang99999999/aes
-<br>https://github.com/ngocbach11314/AES_app.git
-<br>https://github.com/Danh091005/ASPNguyenThanhDanh.git
-<br>https://github.com/zhuzhixin1911/ThuatToanAES.git
-<br>https://github.com/NguyenDacDat05/NguyenDacDat1/tree/main
-<br>https://github.com/nguyentrandat17/Thuattuoandes.git
-<br>https://github.com/datnhincom/PhanDatAES.git
-<br>https://github.com/trongdong1605/trongdongAES/tree/main
-<br>https://github.com/Duc17017/c-c-b-i-t-p
-<br>https://github.com/ducls12/VDuc
-<br>https://github.com/Gienwoennuthan/BT-AES.git
-<br>https://github.com/haohaicotthehienolangson/AES.git
-<br>https://github.com/pth12052/aespth
-<br>https://github.com/minhhieucntt1707/AES_Cypher.git
-<br>https://github.com/my-hoen/Thuat-toan-ma-hoa-AES.git
-<br>https://github.com/HDuonggg/AES.git
-<br>https://github.com/duyhong2005/AES_GiaiMa
-<br>https://github.com/Hung17082005/ASE.git
-<br>https://github.com/nhuongg/Aes-Decrypt.git
-<br>https://github.com/khanh2005vf/AES.git
-<br>https://github.com/nguyenly29/web-AES.git
-<br>https://github.com/GaminTheBasket/AES.git
-<br>https://github.com/namtx53/NamAES.git
-<br>https://github.com/Dangyennhi/aes_encrypt_webapp.git.io.git
-<br>https://github.com/phuccdayynee/BaoMatThuatToanAES.git
-<br>https://github.com/MinhQuang1707/MinhQuang.git
-<br>https://github.com/tainguyenvn2004/thu-t-to-n-AES.git
-<br>https://github.com/Dang-Van-Thanh/Secure-AES-Tool-2025.git
-<br>https://github.com/Thuong1310/baitapAES
-<br>https://github.com/tien-nguyennnnn/web-aes/tree/main
-<br>https://github.com/vutrinh2005/aes
-<br>https://github.com/034205010457/truongaes
-<br>https://github.com/Tuan2401/Tuan17-07.git
-<br>https://github.com/phamquangvinh2506/25-06
-<br>https://github.com/user-attachments/assets/8122d387-4a6a-47c6-839d-ef4852da631d
+# 🔐 AES - KHÓA 17
 
-<h4 align="left">
-   DES - KHÓA 17
-</h4>
-https://github.com/ngocbach11314/DES_app.git
-<br>https://github.com/Danh091005/NguyenDanh.git
-<br>https://github.com/nguyenduyen01022004/nguyenduyen
-<br>https://github.com/DangDat2201/DangThanhDat05.git
-<br>https://github.com/NguyenDacDat05/NguyenDacDat
-<br>https://github.com/trongdong1605/nguyentrongdong
-<br>https://github.com/Duc17017/c-c-b-i-t-p
-<br>https://github.com/Gienwoennuthan/BT-Thu-t-to-n-DES.git
-<br>https://github.com/minhhieucntt1707/DES-CYPHER.git
-<br>https://github.com/my-hoen/BT-thu-t-to-n-DES.git
-<br>https://github.com/HDuonggg/GiaiMaMaHoa.git
-<br>https://github.com/duyhong2005/Encrypted-v-Decrypted
-<br>https://github.com/nhuongg/Des-Decrypt.git
-<br>https://github.com/khanh2005vf/encrypt-decrypt.git
-<br>https://github.com/congkhanh0503/DEs.git
-<br>https://github.com/nguyenly29/Nguyen_Ly.git
-<br>https://github.com/3132205/mahoades
-<br>https://github.com/GaminTheBasket/Tminh1771020470.git
-<br>https://github.com/namtx53/maDES.git
-<br>https://github.com/Dangyennhi/trangweb_des.gitt.git
-<br>https://phuccdayynee.github.io/BaoMatThuatToanDES./
-<br>https://github.com/Thuong1310/BaiTap
-<br>https://github.com/Tuan2401/Tu-n-CNTT-17-07.git
-<br>https://github.com/user-attachments/assets/9036820c-fe2e-4761-b8e6-fa7c211d9bcf
+> Danh sách các repository ứng dụng thuật toán mã hóa AES của sinh viên khóa 17.
+
+| STT | Repository |
+|-----|------------|
+| 1 | [Banhmipatee11/AES](https://github.com/Banhmipatee11/AES/tree/main) |
+| 2 | [mc20t6/AES_Ma_Hoa](https://github.com/mc20t6/AES_Ma_Hoa.git) |
+| 3 | [vuchicong1771020108/aes](https://github.com/vuchicong1771020108/aes) |
+| 4 | [nguyen42005/nguyen-tien-dung](https://github.com/nguyen42005/nguyen-tien-dung.git) |
+| 5 | [tranduy157/TranDuy](https://github.com/tranduy157/TranDuy) |
+| 6 | [DiemManhNguyen/AES_WEB](https://github.com/DiemManhNguyen/AES_WEB.git) |
+| 7 | [haiiigiang/AES](https://github.com/haiiigiang/AES) |
+| 8 | [PhiTruongGiang/bai_tap_aes](https://github.com/PhiTruongGiang/bai_tap_aes.git) |
+| 9 | [hiepnguyen05/ThuatToanAES](https://github.com/hiepnguyen05/ThuatToanAES) |
+| 10 | [tuanhiep23/thuatoanAES](https://github.com/tuanhiep23/thuatoanAES.git) |
+| 11 | [lehieu2999/AES](https://github.com/lehieu2999/AES) |
+| 12 | [hoaphun2/LeDuyHoa_AES](https://github.com/hoaphun2/LeDuyHoa_AES.git) |
+| 13 | [hhoangzone/AES](https://github.com/hhoangzone/AES) |
+| 14 | [HoangNguyen111h/ThuatToanAES](https://github.com/HoangNguyen111h/ThuatToanAES) |
+| 15 | [tranhauhuan452005/AESThuatToan](https://github.com/tranhauhuan452005/AESThuatToan.git) |
+| 16 | [huyluong26/AES](https://github.com/huyluong26/AES) |
+| 17 | [nhucccc/AESSHuy](https://github.com/nhucccc/AESSHuy.git) |
+| 18 | [HuyNG25/AES](https://github.com/HuyNG25/AES.git) |
+| 19 | [LamKheng/BaiTapAES](https://github.com/LamKheng/BaiTapAES) |
+| 20 | [ngocminhkien/ATBMTT-AES](https://github.com/ngocminhkien/ATBMTT-AES.git) |
+| 21 | [TVLlam/THUATTOAN_AES](https://github.com/TVLlam/THUATTOAN_AES.git) |
+| 22 | [Lovanlong1210/ThuatToan-AES](https://github.com/Lovanlong1210/ThuatToan-AES.git) |
+| 23 | [VuVietLong1207/AES](https://github.com/VuVietLong1207/AES.git) |
+| 24 | [manhtb1107/BMTT-AES1-](https://github.com/manhtb1107/BMTT-AES1-.git) |
+| 25 | [bngoc04/ThuattoanAES](https://github.com/bngoc04/ThuattoanAES.git) |
+| 26 | [minhson11/thuatToanAES](https://github.com/minhson11/thuatToanAES.git) |
+| 27 | [thanh331/nmANTT-AES](https://github.com/thanh331/nmANTT-AES.git) |
+| 28 | [HOANGTHI2509/ThuatToanAES](https://github.com/HOANGTHI2509/ThuatToanAES.git) |
+| 29 | [thuyetdeptrai/AES](https://github.com/thuyetdeptrai/AES) |
+| 30 | [Trung010223/AES](https://github.com/Trung010223/AES) |
+| 31 | [tuan9242/aes-web-app](https://github.com/tuan9242/aes-web-app) |
+| 32 | [Yennguyen124/AES](https://github.com/Yennguyen124/AES.git) |
+| 33 | [leeminsiuuu/AES-File-Encryption-Decryption](https://github.com/leeminsiuuu/AES-File-Encryption-Decryption-?tab=readme-ov-file) |
+| 34 | [trananhbang99999999/aes](https://github.com/trananhbang99999999/aes) |
+| 35 | [ngocbach11314/AES_app](https://github.com/ngocbach11314/AES_app.git) |
+| 36 | [Danh091005/ASPNguyenThanhDanh](https://github.com/Danh091005/ASPNguyenThanhDanh.git) |
+| 37 | [zhuzhixin1911/ThuatToanAES](https://github.com/zhuzhixin1911/ThuatToanAES.git) |
+| 38 | [NguyenDacDat05/NguyenDacDat1](https://github.com/NguyenDacDat05/NguyenDacDat1/tree/main) |
+| 39 | [nguyentrandat17/Thuattuoandes](https://github.com/nguyentrandat17/Thuattuoandes.git) |
+| 40 | [datnhincom/PhanDatAES](https://github.com/datnhincom/PhanDatAES.git) |
+| 41 | [trongdong1605/trongdongAES](https://github.com/trongdong1605/trongdongAES/tree/main) |
+| 42 | [Duc17017/c-c-b-i-t-p](https://github.com/Duc17017/c-c-b-i-t-p) |
+| 43 | [ducls12/VDuc](https://github.com/ducls12/VDuc) |
+| 44 | [Gienwoennuthan/BT-AES](https://github.com/Gienwoennuthan/BT-AES.git) |
+| 45 | [haohaicotthehienolangson/AES](https://github.com/haohaicotthehienolangson/AES.git) |
+| 46 | [pth12052/aespth](https://github.com/pth12052/aespth) |
+| 47 | [minhhieucntt1707/AES_Cypher](https://github.com/minhhieucntt1707/AES_Cypher.git) |
+| 48 | [my-hoen/Thuat-toan-ma-hoa-AES](https://github.com/my-hoen/Thuat-toan-ma-hoa-AES.git) |
+| 49 | [HDuonggg/AES](https://github.com/HDuonggg/AES.git) |
+| 50 | [duyhong2005/AES_GiaiMa](https://github.com/duyhong2005/AES_GiaiMa) |
+| 51 | [Hung17082005/ASE](https://github.com/Hung17082005/ASE.git) |
+| 52 | [nhuongg/Aes-Decrypt](https://github.com/nhuongg/Aes-Decrypt.git) |
+| 53 | [khanh2005vf/AES](https://github.com/khanh2005vf/AES.git) |
+| 54 | [nguyenly29/web-AES](https://github.com/nguyenly29/web-AES.git) |
+| 55 | [GaminTheBasket/AES](https://github.com/GaminTheBasket/AES.git) |
+| 56 | [namtx53/NamAES](https://github.com/namtx53/NamAES.git) |
+| 57 | [Dangyennhi/aes_encrypt_webapp](https://github.com/Dangyennhi/aes_encrypt_webapp.git.io.git) |
+| 58 | [phuccdayynee/BaoMatThuatToanAES](https://github.com/phuccdayynee/BaoMatThuatToanAES.git) |
+| 59 | [MinhQuang1707/MinhQuang](https://github.com/MinhQuang1707/MinhQuang.git) |
+| 60 | [tainguyenvn2004/thu-t-to-n-AES](https://github.com/tainguyenvn2004/thu-t-to-n-AES.git) |
+| 61 | [Dang-Van-Thanh/Secure-AES-Tool-2025](https://github.com/Dang-Van-Thanh/Secure-AES-Tool-2025.git) |
+| 62 | [Thuong1310/baitapAES](https://github.com/Thuong1310/baitapAES) |
+| 63 | [tien-nguyennnnn/web-aes](https://github.com/tien-nguyennnnn/web-aes/tree/main) |
+| 64 | [vutrinh2005/aes](https://github.com/vutrinh2005/aes) |
+| 65 | [034205010457/truongaes](https://github.com/034205010457/truongaes) |
+| 66 | [Tuan2401/Tuan17-07](https://github.com/Tuan2401/Tuan17-07.git) |
+| 67 | [phamquangvinh2506/25-06](https://github.com/phamquangvinh2506/25-06) |
+
+## 📎 Ảnh đính kèm
+
+| STT | Link |
+|-----|------|
+| 1 | [Ảnh 1](https://github.com/user-attachments/assets/793e6c8e-2494-4ac3-ba02-15de590acd6c) |
+| 2 | [Ảnh 2](https://github.com/user-attachments/assets/8122d387-4a6a-47c6-839d-ef4852da631d) |
+
+# 🔐 DES - KHÓA 17
+
+> Danh sách các repository ứng dụng thuật toán mã hóa DES của sinh viên khóa 17.
+
+| STT | Repository |
+|-----|------------|
+| 1 | [ngocbach11314/DES_app](https://github.com/ngocbach11314/DES_app.git) |
+| 2 | [Danh091005/NguyenDanh](https://github.com/Danh091005/NguyenDanh.git) |
+| 3 | [nguyenduyen01022004/nguyenduyen](https://github.com/nguyenduyen01022004/nguyenduyen) |
+| 4 | [DangDat2201/DangThanhDat05](https://github.com/DangDat2201/DangThanhDat05.git) |
+| 5 | [NguyenDacDat05/NguyenDacDat](https://github.com/NguyenDacDat05/NguyenDacDat) |
+| 6 | [trongdong1605/nguyentrongdong](https://github.com/trongdong1605/nguyentrongdong) |
+| 7 | [Duc17017/c-c-b-i-t-p](https://github.com/Duc17017/c-c-b-i-t-p) |
+| 8 | [Gienwoennuthan/BT-Thu-t-to-n-DES](https://github.com/Gienwoennuthan/BT-Thu-t-to-n-DES.git) |
+| 9 | [minhhieucntt1707/DES-CYPHER](https://github.com/minhhieucntt1707/DES-CYPHER.git) |
+| 10 | [my-hoen/BT-thu-t-to-n-DES](https://github.com/my-hoen/BT-thu-t-to-n-DES.git) |
+| 11 | [HDuonggg/GiaiMaMaHoa](https://github.com/HDuonggg/GiaiMaMaHoa.git) |
+| 12 | [duyhong2005/Encrypted-v-Decrypted](https://github.com/duyhong2005/Encrypted-v-Decrypted) |
+| 13 | [nhuongg/Des-Decrypt](https://github.com/nhuongg/Des-Decrypt.git) |
+| 14 | [khanh2005vf/encrypt-decrypt](https://github.com/khanh2005vf/encrypt-decrypt.git) |
+| 15 | [congkhanh0503/DEs](https://github.com/congkhanh0503/DEs.git) |
+| 16 | [nguyenly29/Nguyen_Ly](https://github.com/nguyenly29/Nguyen_Ly.git) |
+| 17 | [3132205/mahoades](https://github.com/3132205/mahoades) |
+| 18 | [GaminTheBasket/Tminh1771020470](https://github.com/GaminTheBasket/Tminh1771020470.git) |
+| 19 | [namtx53/maDES](https://github.com/namtx53/maDES.git) |
+| 20 | [Dangyennhi/trangweb_des](https://github.com/Dangyennhi/trangweb_des.gitt.git) |
+| 21 | [phuccdayynee.github.io/BaoMatThuatToanDES](https://phuccdayynee.github.io/BaoMatThuatToanDES./) |
+| 22 | [Thuong1310/BaiTap](https://github.com/Thuong1310/BaiTap) |
+| 23 | [Tuan2401/Tu-n-CNTT-17-07](https://github.com/Tuan2401/Tu-n-CNTT-17-07.git) |
+
+## 📎 Ảnh đính kèm
+
+| STT | Link |
+|-----|------|
+| 1 | [Ảnh 1](https://github.com/user-attachments/assets/9036820c-fe2e-4761-b8e6-fa7c211d9bcf) |
+
 
 

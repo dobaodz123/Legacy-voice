@@ -25,7 +25,7 @@
 
 - #### CNTT 17-01
     | Tên đề tài | Người thực hiện | Source code (cá nhân) |
-    | :--- | :--- | :--- |
+    | ---------------------- | --------------------| --------------- |
     | **Đề tài 6** | Trần Văn Lâm, Hoàng Văn Thi, Bùi Đức Thắng | Trần Văn Lâm: [:octocat: Github](https://github.com/TVLlam/BTL_ATBM.git)<br>Hoàng Văn Thi: [:octocat: Github](https://github.com/HOANGTHI2509/Nhom1-Hoang_Van_Thi.git) |
     | **Đề tài 18** | Nguyễn Ngọc Hiệp, Nguyễn Huy Hoàng, Lương Quang Huy | Nguyễn Ngọc Hiệp: [:octocat: Github](https://github.com/hiepnguyen05/BaiTapLonATBMTT)<br>Nguyễn Huy Hoàng: [:octocat: Github](https://github.com/HoangNguyen111h/BTL_ATBMTT)<br>Lương Quang Huy: [:octocat: Github](https://github.com/huyluong26/BTL_ATTT) |
     | **Đề tài 19** | Ngô Quang Trung, Nguyễn Văn Thuyết, Đoàn Duy Mạnh | Ngô Quang Trung: [:octocat: Github](https://github.com/Trung010223/BTL_ATBMTT)<br>Nguyễn Văn Thuyết: [:octocat: Github](https://github.com/thuyetdeptrai/BTLATBMTT)<br>Đoàn Duy Mạnh: [:octocat: Github](https://github.com/manhtb1107/DuyManh_ATBMTT) |

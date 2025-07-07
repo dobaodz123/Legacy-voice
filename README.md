@@ -236,10 +236,27 @@ Dưới đây là danh sách tổng hợp các sản phẩm và bài tập đư�
 
 </details>
 
+<details>
+<summary>
+    <h5>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔹 Lớp CNTT 16-05
+    </h5>
+</summary>
+| Tên đề tài | Github cá nhân | Nổi bật |
+| :--- | :--- | :--- |
+| Ứng dụng bảo mật tin nhắn văn bản với mã hoá AES và xác thực RSA | Trương Văn An: [:octocat: Github](https://github.com/antruong2004/Gui_tin_nhan_bao_mat)<br>Nguyễn Trọng Anh: [:octocat: Github](https://github.com/anh1671020030/Gui-Tin-Nhan-Bao-Mat-)<br>Quàng Minh Anh: [:octocat: Github](https://github.com/ManhMiko/An_Toan_Bao_Mat_Thong_Tin)<br>Trần Phương Anh: [:octocat: Github](https://github.com/phuonganh29-12/gui-tin-nhan-bao-mat.git) | |
+| Gửi báo cáo tài chính có nén dữ liệu | Phạm Ngọc Chiến: [:octocat: Github](https://github.com/phamchien071004/antoanbaomat)<br>Nguyễn Đình Đức Chính: [:octocat: Github](https://github.com/DucChinh0977/ATBMTT/upload/main)<br>Nguyễn Anh Dũng: [:octocat: Github](https://github.com/dung-nguyenn/ANTOANBAOMATTHONGTIN/tree/main)<br>Trần Ngọc Duyên: [:octocat: Github](https://github.com/duyenngoctran/guibaocaotaichinhconendulieu) | |
+| Ứng dụng bảo mật tin nhắn văn bản với mã hoá TripleDES và xác thực RSA | Nguyễn Phạm Nguyên Giáp: [:octocat: Github](https://github.com/nguyengiap2004/Secure_Chat.git)<br>Trịnh Văn Hào: [:octocat: Github](https://github.com/Trinhvhao/SecureChat)<br>Chu Văn Huy: [:octocat: Github](https://github.com/DuccHuyy1109/Chatbaomat_SecureChat)<br>Nguyễn Thị Mai Hương: [:octocat: Github](https://github.com/maihuong0911/SecureChat.git) | |
+| Ứng dụng Triple DES và AES để bảo vệ thông tin nhạy cảm trong cơ sở dữ liệu | Nguyễn Đức Kiên: [:octocat: Github](https://github.com/dk123-bb/An-Toan-Bao-Mat-Thong-Tin)<br>Phan Xuân Khải: [:octocat: Github](https://github.com/phankhai04112004/secure-sensitive-data)<br>Chu Bá Khánh: [:octocat: Github](https://github.com/chubakhanh2k4/information-security-project)<br>Nguyễn Thị Mai Lan: [:octocat: Github](https://github.com/MaiLan2907/AN_TOAN_BAO_MAT_THONG_TIN) | |
+| Ứng dụng bảo mật tin nhắn văn bản với mã hoá DES và xác thực RSA | Nguyễn Thị Thùy Linh: [:octocat: Github](https://github.com/thuylinh2004/ATBM.git)<br>Nguyễn Thị Viết Lợi: [:octocat: Github](https://github.com/LA2412/An-Toan-Bao-Mat-Thon-Tin.git)<br>Đỗ Duy Long: [:octocat: Github](https://github.com/DuyLongBN1/UngDungBaoMatTinNhan.git)<br>Hồ Đức Mạnh: [:octocat: Github](https://github.com/manh-tho/Ung-dung-bao-mat-tin-nhan-van-ban-voi-DES-va-RSA.git) | |
+| Ứng dụng SHA và Triple DES để bảo vệ mật khẩu người dùng trong cơ sở dữ liệu | Phạm Ngọc Minh: [:octocat: Github](https://github.com/anhminhvdvn/ATBMTT)<br>Nguyễn Phương Nam: [:octocat: Github](https://github.com/kazano77/SHA3DES.git)<br>Nguyễn Văn Nam: [:octocat: Github](https://github.com/namdz16/AnToanBaoMatttt.git)<br>Đào Hải Phong: [:octocat: Github](https://github.com/haiphong2004/ATBMTTSHA3DES) | |
+| Gửi CV an toàn có kiểm tra IP | Nguyễn Lan Phượng: [:octocat: Github](https://github.com/LenPhun/an-toan-bao-mat-thong-tin.git)<br>Đặng Đình Quân: [:octocat: Github](https://github.com/QuanCntt1605/AnToanBaoMat)<br>Hoàng Hải Quân: [:octocat: Github](https://github.com/haiquan2004hn1/GuiCVAnToan)<br>Nguyễn Minh Quân: [:octocat: Github](https://github.com/minhquan1208/GUI_CV_AN_TOAN_CO_KIEM_TRA_IP.git)<br>Trần Chiến Thịnh: [:octocat: Github](https://github.com/tranchienthinh-0000/Gui-CV-An-Toan) | |
+| Gửi tài liệu email có giới hạn thời gian | Phạm Quyết Thắng: [:octocat: Github](https://github.com/PhamThang-209-204/gui_mail_co_thoi_han..git)<br>Nguyễn Đức Thanh: [:octocat: Github](https://github.com/nguyenducthanh04/Gui-Mail-Co-Thoi-Han)<br>Phạm Thị Huyền Trang: [:octocat: Github](https://github.com/bbikem/gui-email.git)<br>Nguyễn Thành Trung: [:octocat: Github](https://github.com/Trung-190104/GuiMailCoThoiHan/) | |
+| Gửi hợp đồng với chữ ký số riêng | Nguyễn Hoàng Việt: [:octocat: Github](https://github.com/nguyenvietehejehe1111/gui-hop-dong-voi-chu-ki-so-riengg/tree/main)<br>Nguyễn Anh Tuấn: [:octocat: Github](https://github.com/nguyntuan28/an_toan_bao_mat_thong_tin#)<br>Nguyễn Anh Tuấn: [:octocat: Github](https://github.com/tuan-tho/gui-hop-dong-voi-chu-ki-so-rieng.git)<br>Phạm Đình Tuấn: [:octocat: Github](https://github.com/tuanepzaii/GUI_HOP_DONG_VOI_CHU_KY_SO_RIENG.git) | |
+
+</details>
 
 
-
-#=====================================================================================================
 </details>
 
 <details>

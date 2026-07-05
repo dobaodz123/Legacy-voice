@@ -101,16 +101,30 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         print('Receiver: Kiểm tra toàn vẹn thành công')
         time.sleep(2)
 
-        # Bước 3: Giải mã dữ liệu và lưu file
-        print('Receiver: Đang thực hiện BƯỚC 3 - Giải mã và lưu file...')
-        plaintext = DES.new(session_key, DES.MODE_CBC, iv).decrypt(cipher)
-        plaintext = unpad(plaintext, DES.block_size)
-        with open('received_email.txt', 'wb') as f:
-            f.write(plaintext)
-        print('Receiver: Đã lưu file received_email.txt')
-        time.sleep(2)
+       # Bước 3: Giải mã dữ liệu và lưu file
+print('Receiver: Đang thực hiện BƯỚC 3 - Giải mã và lưu file...')
 
-        # Phản hồi ACK cho Sender
-        conn.sendall(b'ACK')
-        print('Receiver: Gửi ACK (Nhận thành công)')
-        time.sleep(2)
+plaintext = DES.new(session_key, DES.MODE_CBC, iv).decrypt(cipher)
+plaintext = unpad(plaintext, DES.block_size)
+
+# Lưu file âm thanh
+output_file = "received_voice.wav"
+
+with open(output_file, "wb") as f:
+    f.write(plaintext)
+
+print(f"Receiver: Đã lưu file {output_file}")
+time.sleep(2)
+
+# (Tùy chọn) Phát file âm thanh sau khi nhận
+try:
+    import winsound
+    winsound.PlaySound(output_file, winsound.SND_FILENAME)
+    print("Receiver: Đang phát file âm thanh...")
+except:
+    print("Receiver: Không thể phát âm thanh (bỏ qua).")
+
+# Phản hồi ACK cho Sender
+conn.sendall(b'ACK')
+print('Receiver: Gửi ACK (Nhận thành công)')
+time.sleep(2)

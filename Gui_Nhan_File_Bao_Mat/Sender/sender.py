@@ -57,28 +57,51 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     pub_R = RSA.import_key(pub_R_data)
     priv_S = RSA.import_key(open('sender_private.pem', 'rb').read())
 
-    # Bước 2: Chuẩn bị metadata và SessionKey
-    print('Sender: Đang thực hiện BƯỚC 2 - Tạo SessionKey và chữ ký metadata...')
-    timestamp = int(time.time())
-    metadata = f'email.txt|{timestamp}'
-    # Tạo chữ ký metadata bằng RSA/SHA-512
-    h_meta = SHA512.new(metadata.encode())
-    sig = pkcs1_15.new(priv_S).sign(h_meta)
+    # ==========================
+# BƯỚC 2: Chuẩn bị metadata và SessionKey
+# ==========================
 
-    # Tạo SessionKey (DES)
-    session_key = get_random_bytes(8)
-    # Mã hóa SessionKey bằng RSA
-    esk = PKCS1_OAEP.new(pub_R).encrypt(session_key)
-    print('Sender: SessionKey được tạo và mã hóa')
-    time.sleep(2)
+print('Sender: Đang thực hiện BƯỚC 2 - Tạo SessionKey và chữ ký metadata...')
 
-    # Bước 3: Mã hóa file bằng DES
-    print('Sender: Đang thực hiện BƯỚC 3 - Mã hóa dữ liệu file...')
-    data_plain = open('email.txt', 'rb').read()
-    iv = get_random_bytes(8)  # Tham số khởi tạo cho DES
-    cipher = DES.new(session_key, DES.MODE_CBC, iv).encrypt(pad(data_plain, DES.block_size))
-    print('Sender: File được mã hóa bằng DES')
-    time.sleep(2)
+FILE_NAME = "voice.wav"
+
+timestamp = int(time.time())
+metadata = f'{FILE_NAME}|{timestamp}'
+
+# Tạo chữ ký metadata bằng RSA/SHA-512
+h_meta = SHA512.new(metadata.encode())
+sig = pkcs1_15.new(priv_S).sign(h_meta)
+
+# Tạo SessionKey DES
+session_key = get_random_bytes(8)
+
+# Mã hóa SessionKey bằng RSA
+esk = PKCS1_OAEP.new(pub_R).encrypt(session_key)
+
+print('Sender: SessionKey được tạo và mã hóa')
+time.sleep(2)
+
+# ==========================
+# BƯỚC 3: Mã hóa file âm thanh
+# ==========================
+
+print('Sender: Đang thực hiện BƯỚC 3 - Mã hóa dữ liệu file...')
+
+with open(FILE_NAME, "rb") as f:
+    data_plain = f.read()
+
+iv = get_random_bytes(8)
+
+cipher = DES.new(
+    session_key,
+    DES.MODE_CBC,
+    iv
+).encrypt(
+    pad(data_plain, DES.block_size)
+)
+
+print(f'Sender: Đã mã hóa file {FILE_NAME}')
+time.sleep(2)
 
     # Tính hash SHA-512 của ciphertext
     h_cipher = SHA512.new(cipher).hexdigest()

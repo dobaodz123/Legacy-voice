@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import subprocess
-import audio_utils
+import Gui_Nhan_File_Bao_Mat.Sender.my_audio as my_audio
 
 root = tk.Tk()
 root.title("Voice Sender")
@@ -11,7 +11,7 @@ root.geometry("400x250")
 def record():
 
     try:
-        audio_utils.record_audio(
+        my_audio.record_audio(
             filename="voice.wav",
             duration=5
         )

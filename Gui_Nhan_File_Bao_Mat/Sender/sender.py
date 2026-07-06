@@ -14,11 +14,11 @@ from Crypto.Util.Padding import pad
 import tkinter as tk
 from tkinter import messagebox
 
-import my_audio
+import record_audio_util
 
-print(my_audio)
-print(my_audio.__file__)
-print(hasattr(my_audio, "record_audio"))
+print(record_audio_util)
+print(record_audio_util.__file__)
+print(hasattr(record_audio_util, "record_audio"))
 # Địa chỉ và cổng kết nối đến Receiver
 # Có thể truyền IP của Receiver qua tham số dòng lệnh: python3 sender.py <IP_Receiver>
 HOST = sys.argv[1] if len(sys.argv) > 1 else '127.0.0.1'
@@ -26,19 +26,29 @@ PORT = 65432
 
 # File âm thanh cần gửi
 # File âm thanh cần gửi
-FILE_NAME = "voice.wav"
+import record_audio_util
+
+import os
+
+FILE_NAME = "voice.wav.wav"
 
 choice = input("Bạn có muốn ghi âm mới không? (y/n): ").strip().lower()
 
 if choice == "y":
-    print("Đang ghi âm trong 5 giây...")
-    my_audio.record_audio(FILE_NAME, duration=5)
-    print("Đã lưu file:", FILE_NAME)
-elif not os.path.exists(FILE_NAME):
-    print("Không tìm thấy file voice.wav.")
-    print("Hãy ghi âm hoặc đặt file voice.wav vào thư mục Sender.")
-    exit()
+    FILE_NAME = "voice.wav"
+    print("Đang ghi âm 5 giây...")
+    record_audio_util.record_audio(FILE_NAME, 5)
+    print("Đã ghi âm xong.")
 
+elif choice == "n":
+    if not os.path.exists(FILE_NAME):
+        print(f"Không tìm thấy file {FILE_NAME}")
+        exit()
+    print("Sử dụng file ghi âm có sẵn:", FILE_NAME)
+
+else:
+    print("Vui lòng nhập y hoặc n.")
+    exit()
 # ==========================
 # Tạo khóa RSA cho Sender
 # ==========================

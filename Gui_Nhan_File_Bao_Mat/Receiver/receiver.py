@@ -5,12 +5,12 @@ import json
 import time
 
 from Crypto.PublicKey import RSA
-from Crypto.Cipher import PKCS1_OAEP, DES
+from Crypto.Cipher import PKCS1_OAEP, AES
 from Crypto.Signature import pkcs1_15
 from Crypto.Hash import SHA512
 from Crypto.Util.Padding import unpad
 
-HOST = "127.0.0.1"
+HOST = "0.0.0.0"
 PORT = 65432
 
 OUTPUT_FILE = "received_voice.wav"
@@ -38,6 +38,8 @@ if not os.path.exists("receiver_private.pem"):
 # =====================================
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+
+    s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
     s.bind((HOST, PORT))
 
@@ -95,7 +97,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         time.sleep(2)
 
         # -----------------------------
-        # -----------------------------
         # Nhận Packet
         # -----------------------------
 
@@ -127,7 +128,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         cipher = base64.b64decode(data["cipher"])
 
         metadata = data["metadata"]
-        hash_sender = data["hash"]
 
         print("Receiver: Đã nhận dữ liệu")
 
@@ -153,6 +153,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
         # -----------------------------
         # Verify Signature
+        # (metadata chứa cả hash của ciphertext, nên
+        # xác thực chữ ký ở đây đồng thời khoá luôn
+        # tính toàn vẹn dữ liệu vào danh tính Sender)
         # -----------------------------
 
         try:
@@ -187,27 +190,23 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
         time.sleep(2)
 
-                # -----------------------------
-        # Giải mã Session Key
+        # -----------------------------
+        # Kiểm tra Hash (lấy hash từ metadata
+        # đã được ký, KHÔNG dùng field rời để
+        # tránh bị thay cả cipher lẫn hash cùng lúc)
         # -----------------------------
 
-        session_key = PKCS1_OAEP.new(
+        try:
 
-            private_key
+            file_name_recv, timestamp_recv, hash_sender = metadata.rsplit("|", 2)
 
-        ).decrypt(
+        except ValueError:
 
-            esk
+            print("Receiver: Metadata sai định dạng")
 
-        )
+            conn.sendall(b"NACK")
 
-        print("Receiver: Đã giải mã SessionKey")
-
-        time.sleep(2)
-
-        # -----------------------------
-        # Kiểm tra Hash
-        # -----------------------------
+            exit()
 
         hash_receiver = SHA512.new(
 
@@ -230,14 +229,32 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         time.sleep(2)
 
         # -----------------------------
-        # DES Decrypt
+        # Giải mã Session Key
         # -----------------------------
 
-        plaintext = DES.new(
+        session_key = PKCS1_OAEP.new(
+
+            private_key
+
+        ).decrypt(
+
+            esk
+
+        )
+
+        print("Receiver: Đã giải mã SessionKey")
+
+        time.sleep(2)
+
+        # -----------------------------
+        # AES-256-CBC Decrypt
+        # -----------------------------
+
+        plaintext = AES.new(
 
             session_key,
 
-            DES.MODE_CBC,
+            AES.MODE_CBC,
 
             iv
 
@@ -251,17 +268,15 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
             plaintext,
 
-            DES.block_size
+            AES.block_size
 
         )
-        print("Receiver: DES Decrypt thành công")
+        print("Receiver: AES Decrypt thành công")
 
         print(f"Cipher length = {len(cipher)} bytes")
         print(f"Plaintext length = {len(plaintext)} bytes")
 
         time.sleep(2)
-
-        
 
         # -----------------------------
         # Lưu file âm thanh
@@ -286,29 +301,11 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         time.sleep(2)
 
         # -----------------------------
-        # Phát âm thanh (Windows)
-        # -----------------------------
-
-        try:
-
-            import winsound
-
-            winsound.PlaySound(
-
-                OUTPUT_FILE,
-
-                winsound.SND_FILENAME
-
-            )
-
-            print("Receiver: Đang phát âm thanh...")
-
-        except Exception as e:
-
-            print("Receiver: Không thể phát âm thanh:", e)
-
-        # -----------------------------
-        # Gửi ACK
+        # Gửi ACK ngay sau khi dữ liệu đã được
+        # xác thực + giải mã + lưu thành công.
+        # Gửi trước bước phát âm thanh để Sender
+        # không bị treo/chờ nếu máy Receiver không
+        # có thiết bị audio khả dụng.
         # -----------------------------
 
         conn.sendall(
@@ -322,5 +319,36 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         print("===================================")
 
         time.sleep(2)
+
+        # -----------------------------
+        # Phát âm thanh (đa nền tảng, không bắt buộc)
+        # -----------------------------
+
+        try:
+
+            import platform
+
+            if platform.system() == "Windows":
+
+                import winsound
+
+                winsound.PlaySound(OUTPUT_FILE, winsound.SND_FILENAME)
+
+            else:
+
+                import sounddevice as sd
+                import soundfile as sf
+
+                wav_data, samplerate = sf.read(OUTPUT_FILE, dtype="int16")
+
+                sd.play(wav_data, samplerate)
+
+                sd.wait()
+
+            print("Receiver: Đang phát âm thanh...")
+
+        except Exception as e:
+
+            print("Receiver: Không thể phát âm thanh (bỏ qua):", e)
 
 print("\nReceiver kết thúc.")

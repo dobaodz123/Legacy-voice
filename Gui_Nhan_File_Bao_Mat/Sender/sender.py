@@ -1,21 +1,43 @@
+
 import os
+import sys
 import socket
 import base64
 import json
 import time
 from Crypto.PublicKey import RSA
-from Crypto.Cipher import PKCS1_OAEP, DES
+from Crypto.Cipher import PKCS1_OAEP, AES
 from Crypto.Signature import pkcs1_15
 from Crypto.Hash import SHA512
 from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad
+import tkinter as tk
+from tkinter import messagebox
 
+import my_audio
+
+print(my_audio)
+print(my_audio.__file__)
+print(hasattr(my_audio, "record_audio"))
 # Địa chỉ và cổng kết nối đến Receiver
-HOST = '127.0.0.1'
+# Có thể truyền IP của Receiver qua tham số dòng lệnh: python3 sender.py <IP_Receiver>
+HOST = sys.argv[1] if len(sys.argv) > 1 else '127.0.0.1'
 PORT = 65432
 
 # File âm thanh cần gửi
-FILE_NAME = "voice.wav.wav"
+# File âm thanh cần gửi
+FILE_NAME = "voice.wav"
+
+choice = input("Bạn có muốn ghi âm mới không? (y/n): ").strip().lower()
+
+if choice == "y":
+    print("Đang ghi âm trong 5 giây...")
+    my_audio.record_audio(FILE_NAME, duration=5)
+    print("Đã lưu file:", FILE_NAME)
+elif not os.path.exists(FILE_NAME):
+    print("Không tìm thấy file voice.wav.")
+    print("Hãy ghi âm hoặc đặt file voice.wav vào thư mục Sender.")
+    exit()
 
 # ==========================
 # Tạo khóa RSA cho Sender
@@ -90,30 +112,15 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     )
 
     # -----------------------
-    # Metadata
+    # Tạo Session Key AES-256
+    # (Nâng cấp từ DES 8-byte/56-bit lên AES-256 theo đúng yêu cầu đề tài)
     # -----------------------
 
-    timestamp = int(time.time())
-
-    metadata = f"{FILE_NAME}|{timestamp}"
-
-    print("Sender: Metadata =", metadata)
-
-    # Ký metadata
-
-    h_meta = SHA512.new(metadata.encode())
-
-    signature = pkcs1_15.new(priv_S).sign(h_meta)
-
-    # -----------------------
-    # Tạo Session Key DES
-    # -----------------------
-
-    session_key = get_random_bytes(8)
+    session_key = get_random_bytes(32)
 
     encrypted_session_key = PKCS1_OAEP.new(pub_R).encrypt(session_key)
 
-    print("Sender: SessionKey tạo thành công")
+    print("Sender: SessionKey AES-256 tạo thành công")
 
     time.sleep(2)
 
@@ -136,27 +143,28 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     time.sleep(2)
 
     # -----------------------
-    # DES Encrypt
+    # AES-256-CBC Encrypt
     # -----------------------
 
-    iv = get_random_bytes(8)
+    iv = get_random_bytes(16)
 
-    cipher = DES.new(
+    cipher = AES.new(
         session_key,
-        DES.MODE_CBC,
+        AES.MODE_CBC,
         iv
     ).encrypt(
         pad(
             plaintext,
-            DES.block_size
+            AES.block_size
         )
     )
 
-    print("Sender: DES Encrypt thành công")
+    print("Sender: AES Encrypt thành công")
 
     time.sleep(2)
-        # -----------------------
-    # SHA512 Hash
+
+    # -----------------------
+    # SHA512 Hash của ciphertext
     # -----------------------
 
     hash_cipher = SHA512.new(cipher).hexdigest()
@@ -164,6 +172,23 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     print("Sender: Hash =", hash_cipher)
 
     time.sleep(2)
+
+    # -----------------------
+    # Metadata + Ký (metadata gồm cả hash của
+    # ciphertext để chữ ký cũng bảo vệ luôn tính
+    # toàn vẹn dữ liệu, tránh bị thay cả cipher lẫn
+    # hash cùng lúc mà không bị phát hiện)
+    # -----------------------
+
+    timestamp = int(time.time())
+
+    metadata = f"{FILE_NAME}|{timestamp}|{hash_cipher}"
+
+    print("Sender: Metadata =", metadata)
+
+    h_meta = SHA512.new(metadata.encode())
+
+    signature = pkcs1_15.new(priv_S).sign(h_meta)
 
     # -----------------------
     # Đóng gói JSON
@@ -188,8 +213,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         "cipher": base64.b64encode(
             cipher
         ).decode(),
-
-        "hash": hash_cipher
 
     }
 
